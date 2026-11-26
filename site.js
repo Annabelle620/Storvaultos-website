@@ -1,7 +1,7 @@
 'use strict';
 (() => {
   document.getElementById('year').textContent = new Date().getFullYear();
-  const config = window.STORVAULT_SITE || {};
+  const config = window.STORARMOR_SITE || {};
   function publicHttps(value, requiredHost) {
     if (!value) return null;
     try {
@@ -23,7 +23,7 @@
     answer.textContent = 'Use the verified Payhip product page to review the price, download details, and activation process. ';
     const faqLink = document.createElement('a');
     faqLink.href = payhip;
-    faqLink.textContent = 'View StorVaultOS on Payhip.';
+    faqLink.textContent = 'View StorArmor on Payhip.';
     answer.append(faqLink);
   }
   const download = publicHttps(config.demoDownloadUrl);

@@ -30,7 +30,7 @@ function check(directory) {
   for (const oldAnchor of ['features', 'purchase', 'faq']) assert(ids.includes(oldAnchor), `Existing anchor must remain: ${oldAnchor}`);
   const context = {window: {}};
   vm.runInNewContext(fs.readFileSync(path.join(root, 'site-config.js'), 'utf8'), context);
-  for (const [key, value] of Object.entries(context.window.STORVAULT_SITE)) {
+  for (const [key, value] of Object.entries(context.window.STORARMOR_SITE)) {
     if (!value) continue;
     const url = new URL(value);
     assert.equal(url.protocol, 'https:', `${key} must use HTTPS`);

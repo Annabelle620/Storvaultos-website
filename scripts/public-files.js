@@ -8,6 +8,6 @@ module.exports = Object.freeze([
   'site.js',
   'assets/favicon.png',
   'assets/home-preview.png',
-  'assets/storvaultos-logo.png',
+  'assets/storarmor-logo.png',
   'assets/tenant-preview.png'
 ]);

@@ -1,4 +1,4 @@
-# StorVaultOS marketing website
+# StorArmor marketing website
 
 Static marketing pages for the Windows Offline edition. This repository is separate from the management application and contains no company records or licensing secrets.
 
@@ -8,7 +8,7 @@ Static marketing pages for the Windows Offline edition. This repository is separ
 - `styles.css`: responsive navy, teal, and cream presentation.
 - `site.js`: accessible product-image preview and verified purchase/download link handling.
 - `site-config.js`: public Payhip product and demo download URLs. Empty URLs keep checkout and downloads clearly marked as not yet available.
-- `assets/`: existing StorVaultOS branding and screenshots from fictional test companies.
+- `assets/`: existing StorArmor branding and screenshots from fictional test companies.
 
 ## Release links
 
