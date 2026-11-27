@@ -3,9 +3,11 @@
 // Only these reviewed files may enter the public deployment.
 module.exports = Object.freeze([
   'index.html',
-  'styles.css',
-  'site-config.js',
-  'site.js',
+  'storarmor.css',
+  'storarmor-config.js',
+  'storarmor.js',
+  'robots.txt',
+  'sitemap.xml',
   'assets/favicon.png',
   'assets/home-preview.png',
   'assets/storarmor-logo.png',
