@@ -15,7 +15,7 @@
     const link = document.getElementById('demo-download');
     link.href = download;
     link.hidden = false;
-    document.getElementById('demo-availability').textContent = 'Download for Windows 10 or 11, 64-bit. Choose the fictional demo before activation.';
+    document.getElementById('demo-availability').textContent = 'Free for Windows 10 or 11, 64-bit. No purchase required to explore the demo.';
     document.getElementById('demo-faq').textContent = 'Yes. Use the free demo download on this page. The Windows program includes fictional records, separate from real company data. Demo changes do not transfer into your licensed company.';
   }
   const dialog = document.getElementById('image-dialog');
