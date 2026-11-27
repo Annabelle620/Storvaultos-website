@@ -9,7 +9,7 @@ module.exports = Object.freeze([
   'robots.txt',
   'sitemap.xml',
   'assets/favicon.png',
-  'assets/home-preview.png',
+  'assets/home-preview-027.png',
   'assets/storarmor-logo.png',
-  'assets/tenant-preview.png'
+  'assets/tenant-preview-027.png'
 ]);
