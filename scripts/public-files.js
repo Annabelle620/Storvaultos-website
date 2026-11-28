@@ -3,6 +3,7 @@
 // Only these reviewed files may enter the public deployment.
 module.exports = Object.freeze([
   'index.html',
+  'self-storage-software/index.html',
   'storarmor.css',
   'storarmor-config.js',
   'storarmor.js',
