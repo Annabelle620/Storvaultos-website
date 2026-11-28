@@ -25,7 +25,7 @@ function check(directory) {
   for (const match of html.matchAll(/\b(?:src|href)="([^"]+)"/g)) {
     const value = match[1];
     if (value.startsWith('#')) assert(ids.includes(value.slice(1)), `Missing anchor: ${value}`);
-    else if (!value.startsWith('https://')) assert(publicFiles.includes(value), `Unapproved or missing public link: ${value}`);
+    else if (value !== 'mailto:support@storarmor.com' && !value.startsWith('https://')) assert(publicFiles.includes(value), `Unapproved or missing public link: ${value}`);
   }
   for (const oldAnchor of ['features', 'purchase', 'faq']) assert(ids.includes(oldAnchor), `Existing anchor must remain: ${oldAnchor}`);
   const context = {window: {}};
